@@ -5,9 +5,9 @@ let index = 0
 function init() {
   function triggerKey(e) {
   //document.body.addEventListener('keydown', function(e){
-  const key = parseInt(e.detail || e.which);
-  console.log(`${e.detail}`);
-  console.log(`${e.which}`);
+  const key = parseInt(e.detail || e.which)
+  console.log(e.detail)
+  console.log(e.which)
     if (key === code[index]) {
       index++;
 
@@ -20,5 +20,4 @@ function init() {
       index = 0;
     }
   });
-
 }
