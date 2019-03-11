@@ -18,6 +18,6 @@ function init() {
       index = 0;
     }
   });
-  console.log(`${e.detail}`);
-  console.log(`${e.which}`);
+  // console.log(`${e.detail}`);
+  // console.log(`${e.which}`);
 }
